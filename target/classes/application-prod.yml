@@ -1,0 +1,5 @@
+db-config:
+  domain: db-security:5432
+  name: atenea_security
+  user: postgres
+  password: VA@Atenea2023

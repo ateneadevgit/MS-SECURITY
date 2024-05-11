@@ -1,0 +1,310 @@
+2023-09-27 20:01:47 INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8001
+2023-09-27 20:01:47 INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=mw-security, config-service, profiles=[default], label=null, version=null, state=null
+2023-09-27 20:01:47 INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-classpath:/config-data/config-service.yaml'}, BootstrapPropertySource {name='bootstrapProperties-classpath:/config-data/mw-security.yaml'}]
+2023-09-27 20:01:47 INFO  c.fusm.security.SecurityApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-27 20:01:47 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-27 20:01:47 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-09-27 20:01:47 INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.fusm.security.repository.ISecurityRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-09-27 20:01:47 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2023-09-27 20:01:47 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-27 20:01:47 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-27 20:01:47 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interfaces.
+2023-09-27 20:01:48 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=98b59273-f9d7-3bd1-abb4-847ec6b045da
+2023-09-27 20:01:48 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8005 (http)
+2023-09-27 20:01:48 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-09-27 20:01:48 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-09-27 20:01:48 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-09-27 20:01:48 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 348 ms
+2023-09-27 20:01:48 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-27 20:01:48 INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-09-27 20:01:48 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-27 20:01:48 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Starting...
+2023-09-27 20:01:49 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-9 - Added connection org.postgresql.jdbc.PgConnection@63964024
+2023-09-27 20:01:49 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Start completed.
+2023-09-27 20:01:49 INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-09-27 20:01:49 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-27 20:01:49 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-27 20:01:49 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-27 20:01:50 WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2023-09-27 20:01:50 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2023-09-27 20:01:50 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-09-27 20:01:50 INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2023-09-27 20:01:50 INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2023-09-27 20:01:50 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-09-27 20:01:50 INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2023-09-27 20:01:50 INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2023-09-27 20:01:50 INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2023-09-27 20:01:50 INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2023-09-27 20:01:50 INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2023-09-27 20:01:50 INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2023-09-27 20:01:50 INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2023-09-27 20:01:50 INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2023-09-27 20:01:50 INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2023-09-27 20:01:50 INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-09-27 20:01:50 INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1695862910749 with initial instances count: 2
+2023-09-27 20:01:50 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application MW-SECURITY, CONFIG-SERVICE with eureka with status UP
+2023-09-27 20:01:50 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1695862910751, current=UP, previous=STARTING]
+2023-09-27 20:01:50 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_MW-SECURITY, CONFIG-SERVICE/developer:mw-security, config-service:8005: registering service...
+2023-09-27 20:01:50 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8005 (http) with context path ''
+2023-09-27 20:01:50 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8005
+2023-09-27 20:01:51 INFO  c.fusm.security.SecurityApplication - Started SecurityApplication in 3.785 seconds (process running for 3227.487)
+2023-09-27 20:01:51 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-09-27 20:01:52 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_MW-SECURITY, CONFIG-SERVICE/developer:mw-security, config-service:8005 - registration status: 204
+2023-09-27 20:02:15 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-09-27 20:02:15 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application MW-SECURITY, CONFIG-SERVICE with eureka with status DOWN
+2023-09-27 20:02:15 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1695862935163, current=DOWN, previous=UP]
+2023-09-27 20:02:15 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_MW-SECURITY, CONFIG-SERVICE/developer:mw-security, config-service:8005: registering service...
+2023-09-27 20:02:15 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-09-27 20:02:15 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_MW-SECURITY, CONFIG-SERVICE/developer:mw-security, config-service:8005 - registration status: 204
+2023-09-27 20:02:15 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-27 20:02:15 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown initiated...
+2023-09-27 20:02:15 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown completed.
+2023-09-27 20:02:15 INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2023-09-27 20:02:18 INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2023-09-27 20:02:18 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_MW-SECURITY, CONFIG-SERVICE/developer:mw-security, config-service:8005 - deregister  status: 200
+2023-09-27 20:02:18 INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2023-09-27 20:02:19 INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8001
+2023-09-27 20:02:19 INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=mw-security, config-service, profiles=[default], label=null, version=null, state=null
+2023-09-27 20:02:19 INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-classpath:/config-data/config-service.yaml'}, BootstrapPropertySource {name='bootstrapProperties-classpath:/config-data/mw-security.yaml'}]
+2023-09-27 20:02:19 INFO  c.fusm.security.SecurityApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-27 20:02:19 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-27 20:02:19 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-09-27 20:02:19 INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.fusm.security.repository.ISecurityRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-09-27 20:02:19 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2023-09-27 20:02:19 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-27 20:02:19 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-27 20:02:19 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2023-09-27 20:02:19 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=98b59273-f9d7-3bd1-abb4-847ec6b045da
+2023-09-27 20:02:19 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8005 (http)
+2023-09-27 20:02:19 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-09-27 20:02:19 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-09-27 20:02:19 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-09-27 20:02:19 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 736 ms
+2023-09-27 20:02:19 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-27 20:02:19 INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-09-27 20:02:19 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-27 20:02:19 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Starting...
+2023-09-27 20:02:21 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Added connection org.postgresql.jdbc.PgConnection@56e75177
+2023-09-27 20:02:21 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Start completed.
+2023-09-27 20:02:21 INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-09-27 20:02:21 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-27 20:02:21 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-27 20:02:21 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-27 20:02:22 WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2023-09-27 20:02:22 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2023-09-27 20:02:22 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-09-27 20:02:22 INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2023-09-27 20:02:22 INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2023-09-27 20:02:22 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-09-27 20:02:22 INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2023-09-27 20:02:22 INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2023-09-27 20:02:22 INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2023-09-27 20:02:22 INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2023-09-27 20:02:22 INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2023-09-27 20:02:22 INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2023-09-27 20:02:22 INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2023-09-27 20:02:22 INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2023-09-27 20:02:22 INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2023-09-27 20:02:22 INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-09-27 20:02:22 INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1695862942398 with initial instances count: 2
+2023-09-27 20:02:22 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application MW-SECURITY, CONFIG-SERVICE with eureka with status UP
+2023-09-27 20:02:22 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1695862942400, current=UP, previous=STARTING]
+2023-09-27 20:02:22 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_MW-SECURITY, CONFIG-SERVICE/developer:mw-security, config-service:8005: registering service...
+2023-09-27 20:02:22 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8005 (http) with context path ''
+2023-09-27 20:02:22 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8005
+2023-09-27 20:02:22 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_MW-SECURITY, CONFIG-SERVICE/developer:mw-security, config-service:8005 - registration status: 204
+2023-09-27 20:02:22 INFO  c.fusm.security.SecurityApplication - Started SecurityApplication in 4.17 seconds (process running for 3258.994)
+2023-09-27 20:02:22 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-09-27 20:03:46 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-09-27 20:03:46 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application MW-SECURITY, CONFIG-SERVICE with eureka with status DOWN
+2023-09-27 20:03:46 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1695863026837, current=DOWN, previous=UP]
+2023-09-27 20:03:46 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_MW-SECURITY, CONFIG-SERVICE/developer:mw-security, config-service:8005: registering service...
+2023-09-27 20:03:46 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_MW-SECURITY, CONFIG-SERVICE/developer:mw-security, config-service:8005 - registration status: 204
+2023-09-27 20:03:47 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-09-27 20:03:47 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-27 20:03:47 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown initiated...
+2023-09-27 20:03:47 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown completed.
+2023-09-27 20:03:47 INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2023-09-27 20:03:50 INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2023-09-27 20:03:50 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_MW-SECURITY, CONFIG-SERVICE/developer:mw-security, config-service:8005 - deregister  status: 200
+2023-09-27 20:03:50 INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2023-09-27 20:03:51 INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8001
+2023-09-27 20:03:51 INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=mw-security, config-service, profiles=[default], label=null, version=null, state=null
+2023-09-27 20:03:51 INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-classpath:/config-data/config-service.yaml'}, BootstrapPropertySource {name='bootstrapProperties-classpath:/config-data/mw-security.yaml'}]
+2023-09-27 20:03:51 INFO  c.fusm.security.SecurityApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-27 20:03:52 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-27 20:03:52 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-09-27 20:03:52 INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.fusm.security.repository.ISecurityRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-09-27 20:03:52 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JDBC repository interfaces.
+2023-09-27 20:03:52 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-27 20:03:52 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-27 20:03:52 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2023-09-27 20:03:52 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=ca6382e6-3c26-383c-a3ed-f1c78416ac72
+2023-09-27 20:03:52 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8005 (http)
+2023-09-27 20:03:52 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-09-27 20:03:52 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-09-27 20:03:52 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-09-27 20:03:52 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 724 ms
+2023-09-27 20:03:52 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-27 20:03:52 INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-09-27 20:03:52 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-27 20:03:52 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Starting...
+2023-09-27 20:03:53 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - Added connection org.postgresql.jdbc.PgConnection@2fd1d33d
+2023-09-27 20:03:53 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Start completed.
+2023-09-27 20:03:54 INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-09-27 20:03:54 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-27 20:03:54 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-27 20:03:54 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityController': Unsatisfied dependency expressed through field 'securityService': No qualifying bean of type 'com.fusm.security.service.ISecurityService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-09-27 20:03:54 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-27 20:03:54 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown initiated...
+2023-09-27 20:03:54 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown completed.
+2023-09-27 20:03:54 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-09-27 20:03:54 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-27 20:03:54 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field securityService in com.fusm.security.controller.SecurityController required a bean of type 'com.fusm.security.service.ISecurityService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.fusm.security.service.ISecurityService' in your configuration.
+
+2023-09-27 20:04:29 INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8001
+2023-09-27 20:04:29 INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=mw-security, config-service, profiles=[default], label=null, version=null, state=null
+2023-09-27 20:04:29 INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-classpath:/config-data/config-service.yaml'}, BootstrapPropertySource {name='bootstrapProperties-classpath:/config-data/mw-security.yaml'}]
+2023-09-27 20:04:29 INFO  c.fusm.security.SecurityApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-27 20:04:30 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-27 20:04:30 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-09-27 20:04:30 INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.fusm.security.repository.ISecurityRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-09-27 20:04:30 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 JDBC repository interfaces.
+2023-09-27 20:04:30 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-27 20:04:30 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-27 20:04:30 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+2023-09-27 20:04:30 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=98b59273-f9d7-3bd1-abb4-847ec6b045da
+2023-09-27 20:04:30 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8005 (http)
+2023-09-27 20:04:30 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-09-27 20:04:30 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-09-27 20:04:30 INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-09-27 20:04:30 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 771 ms
+2023-09-27 20:04:30 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-27 20:04:30 INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-09-27 20:04:30 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-27 20:04:30 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Starting...
+2023-09-27 20:04:31 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-12 - Added connection org.postgresql.jdbc.PgConnection@77f0ac61
+2023-09-27 20:04:31 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Start completed.
+2023-09-27 20:04:32 INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-09-27 20:04:32 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-27 20:04:32 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-27 20:04:32 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-27 20:04:32 WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2023-09-27 20:04:32 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2023-09-27 20:04:33 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-09-27 20:04:33 INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2023-09-27 20:04:33 INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2023-09-27 20:04:33 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-09-27 20:04:33 INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2023-09-27 20:04:33 INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2023-09-27 20:04:33 INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2023-09-27 20:04:33 INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2023-09-27 20:04:33 INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2023-09-27 20:04:33 INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2023-09-27 20:04:33 INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2023-09-27 20:04:33 INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2023-09-27 20:04:33 INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2023-09-27 20:04:33 INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-09-27 20:04:33 INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1695863073097 with initial instances count: 1
+2023-09-27 20:04:33 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application MW-SECURITY, CONFIG-SERVICE with eureka with status UP
+2023-09-27 20:04:33 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1695863073099, current=UP, previous=STARTING]
+2023-09-27 20:04:33 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_MW-SECURITY, CONFIG-SERVICE/developer:mw-security, config-service:8005: registering service...
+2023-09-27 20:04:33 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8005 (http) with context path ''
+2023-09-27 20:04:33 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8005
+2023-09-27 20:04:33 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_MW-SECURITY, CONFIG-SERVICE/developer:mw-security, config-service:8005 - registration status: 204
+2023-09-27 20:04:33 INFO  c.fusm.security.SecurityApplication - Started SecurityApplication in 4.265 seconds (process running for 3389.723)
+2023-09-27 20:04:33 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-09-27 20:05:23 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-09-27 20:05:23 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application MW-SECURITY, CONFIG-SERVICE with eureka with status DOWN
+2023-09-27 20:05:23 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1695863123867, current=DOWN, previous=UP]
+2023-09-27 20:05:23 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_MW-SECURITY, CONFIG-SERVICE/developer:mw-security, config-service:8005: registering service...
+2023-09-27 20:05:23 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_MW-SECURITY, CONFIG-SERVICE/developer:mw-security, config-service:8005 - registration status: 204
+2023-09-27 20:05:23 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-09-27 20:05:23 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-27 20:05:23 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown initiated...
+2023-09-27 20:05:23 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown completed.
+2023-09-27 20:05:23 INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2023-09-27 20:05:26 INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2023-09-27 20:05:26 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_MW-SECURITY, CONFIG-SERVICE/developer:mw-security, config-service:8005 - deregister  status: 200
+2023-09-27 20:05:26 INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2023-09-27 20:05:27 INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8001
+2023-09-27 20:05:27 INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=mw-security, config-service, profiles=[default], label=null, version=null, state=null
+2023-09-27 20:05:27 INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-classpath:/config-data/config-service.yaml'}, BootstrapPropertySource {name='bootstrapProperties-classpath:/config-data/mw-security.yaml'}]
+2023-09-27 20:05:27 INFO  c.fusm.security.SecurityApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-27 20:05:27 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-27 20:05:27 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-09-27 20:05:27 INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.fusm.security.repository.ISecurityRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-09-27 20:05:27 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 JDBC repository interfaces.
+2023-09-27 20:05:27 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-27 20:05:27 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-27 20:05:27 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2023-09-27 20:05:27 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=98b59273-f9d7-3bd1-abb4-847ec6b045da
+2023-09-27 20:05:27 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8005 (http)
+2023-09-27 20:05:27 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-09-27 20:05:27 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-09-27 20:05:27 INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-09-27 20:05:27 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 559 ms
+2023-09-27 20:05:27 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-27 20:05:27 INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-09-27 20:05:27 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-27 20:05:27 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Starting...
+2023-09-27 20:05:29 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-13 - Added connection org.postgresql.jdbc.PgConnection@641b7972
+2023-09-27 20:05:29 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Start completed.
+2023-09-27 20:05:29 INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-09-27 20:05:29 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-27 20:05:29 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-27 20:05:29 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-27 20:05:29 WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2023-09-27 20:05:30 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2023-09-27 20:05:30 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-09-27 20:05:30 INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2023-09-27 20:05:30 INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2023-09-27 20:05:30 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-09-27 20:05:30 INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2023-09-27 20:05:30 INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2023-09-27 20:05:30 INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2023-09-27 20:05:30 INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2023-09-27 20:05:30 INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2023-09-27 20:05:30 INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2023-09-27 20:05:30 INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2023-09-27 20:05:30 INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2023-09-27 20:05:30 INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2023-09-27 20:05:30 INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-09-27 20:05:30 INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1695863130204 with initial instances count: 2
+2023-09-27 20:05:30 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application MW-SECURITY, CONFIG-SERVICE with eureka with status UP
+2023-09-27 20:05:30 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1695863130204, current=UP, previous=STARTING]
+2023-09-27 20:05:30 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_MW-SECURITY, CONFIG-SERVICE/developer:mw-security, config-service:8005: registering service...
+2023-09-27 20:05:30 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8005 (http) with context path ''
+2023-09-27 20:05:30 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8005
+2023-09-27 20:05:30 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_MW-SECURITY, CONFIG-SERVICE/developer:mw-security, config-service:8005 - registration status: 204
+2023-09-27 20:05:30 INFO  c.fusm.security.SecurityApplication - Started SecurityApplication in 3.289 seconds (process running for 3446.787)
+2023-09-27 20:05:30 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-09-27 20:07:39 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application MW-SECURITY, CONFIG-SERVICE with eureka with status DOWN
+2023-09-27 20:07:39 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1695863259942, current=DOWN, previous=UP]
+2023-09-27 20:07:39 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_MW-SECURITY, CONFIG-SERVICE/developer:mw-security, config-service:8005: registering service...
+2023-09-27 20:07:40 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_MW-SECURITY, CONFIG-SERVICE/developer:mw-security, config-service:8005 - registration status: 204
+2023-09-27 20:07:40 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-27 20:07:40 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Shutdown initiated...
+2023-09-27 20:07:40 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Shutdown completed.
+2023-09-27 20:07:40 INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2023-09-27 20:07:43 INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2023-09-27 20:07:43 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_MW-SECURITY, CONFIG-SERVICE/developer:mw-security, config-service:8005 - deregister  status: 200
+2023-09-27 20:07:43 INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
